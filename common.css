@@ -1,0 +1,77 @@
+#todays-date {
+    position: relative;
+    left: 30px;
+}
+
+#bday-title, #photo-album-title {
+    text-align: center;
+}
+
+#bday-message-inner {
+    width: 500px;
+    margin: auto;
+    border: 1px solid rgb(189, 185, 185);
+}
+
+#bday-message {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#dmt1 {
+    position: absolute;
+    top: 6px;
+    bottom: 0;
+}
+
+#photo-album-container {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+    position: relative;
+    box-shadow: 0 0 3px 3px rgb(196, 76, 165);
+}
+
+#photo-album-container .album-inner img:nth-child(2) {
+    float: right;
+}
+
+#photo-album-container .album-inner {
+    position: relative;
+    padding-top: 30px;
+}
+
+#photo-album-container .album-inner img:hover {
+    zoom: 2;
+}
+
+#album-message {
+    text-align: center;
+    font-size: 150%;
+    font-family: Snell Roundhand, cursive;
+}
+
+#wishlist-container {
+    position: relative;
+    top: 200px;
+}
+
+#wishlist-title {
+    text-align: center;
+}
+
+.wish-labels, .wish-boxes {
+    font-size: 175%;
+    position: relative;
+    left: 38%;
+}
+
+.wish-boxes {
+    zoom: 1.5;
+}
